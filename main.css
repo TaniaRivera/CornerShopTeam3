@@ -1,0 +1,51 @@
+.features{
+    display: flex;
+    /*
+    grid-template-columns:repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-auto-flow: row;
+    */
+    flex-flow: row wrap;
+    align-content: flex-end;
+    font-family: "Avenir Next", Avenir, sans-serif;
+}
+
+.feature-image-shopper{
+    background-image: url(https://s.cornershopapp.com/static/landings/homepage/img/Bags_2x.png);
+    background-position: center;
+    background-size: cover; 
+    border-radius: 12px;
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.feature-image-store{
+    background-image: url(https://s.cornershopapp.com/static/landings/homepage/img/Storefront_2x.jpg);
+    background-position: center;
+    background-size: cover; 
+    border-radius: 12px;
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.feature-image-text-shopper{
+    background: linear-gradient(rgba(255, 255, 255, 0.85) 40%, rgba(255, 255, 255, 0) 100%);
+    color: black;
+    border-radius: 12px;
+}
+
+.feature-image-text-store{
+    background: linear-gradient(rgba(0, 0, 0, 0.85) 40%, rgba(0, 0, 0, 0) 100%);
+    color: white;
+    border-radius: 12px;
+}
+
+.feature-image-text-small{
+    color: gray;   
+    font-size: 10px;
+}
