@@ -1,0 +1,60 @@
+
+*{
+    margin: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+footer{
+    width: 100%;
+    color: white;
+    background-color: #2b2b2b;
+    
+}
+
+.contaider-all {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+.Container-body{
+    display: flex;
+}
+
+
+.column1 h4{
+    font-size: 16px;
+    color: rgb(198, 202, 207);
+    
+}
+
+
+
+  .preg-frec{
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+    display:flex ;
+    padding: 12px;
+    justify-content: center;
+    
+
+  }
+
+  .preg-frec div{
+      background-color: #2b2b2b;
+      width: 600px;
+      height: 250px;
+      margin: 50px;
+      text-align: center;
+      line-height: 75px;
+      border-color: slategray;
+      display: inline;
+      border-radius: 20px;
+      color: snow;
+      text-align: center;
+  }
+
+
